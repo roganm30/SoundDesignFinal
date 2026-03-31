@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ff6b2cc6-9133-47ee-8d84-bcb4bfff4686}">
+		<property name="assetPath">
+			<value>birdchirp.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>63</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4eba733e-22f7-423f-98e1-8b73137fe746}</destination>
+		</relationship>
+	</object>
+</objects>
