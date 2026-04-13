@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: Week12Ambience-FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639115217351750184
+  lastModified: 639116808640995151
   FileSizes:
   - Name: Desktop
-    Value: 1030
+    Value: 1074
   Exists: 1
 --- !u!114 &-2824505384820444000
 MonoBehaviour:
@@ -116,10 +116,10 @@ MonoBehaviour:
   Path: Week12Ambience-FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639115217351725096
+  lastModified: 639116808640959923
   FileSizes:
   - Name: Desktop
-    Value: 3194912
+    Value: 3243360
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -144,13 +144,14 @@ MonoBehaviour:
   - {fileID: -5107593768911127511}
   - {fileID: -8989295863902560386}
   - {fileID: 1838453337023574997}
+  - {fileID: 100623110872924656}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1805948265469652380}
   StringsBanks:
   - {fileID: -3326178456090889463}
   cacheVersion: 131848
-  cacheTime: 639115217351750184
+  cacheTime: 639116808640995151
   SerializableEventsDict:
   - key: event:/Ambience
     index: 0
@@ -166,6 +167,35 @@ MonoBehaviour:
     index: 5
   - key: event:/BGM
     index: 6
+  - key: event:/dramaticVoice
+    index: 7
+--- !u!114 &100623110872924656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/dramaticVoice
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/dramaticVoice
+  Guid:
+    Data1: -43885984
+    Data2: 1214668105
+    Data3: 1649091202
+    Data4: -644735976
+  Banks:
+  - {fileID: -1805948265469652380}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &1838453337023574997
 MonoBehaviour:
   m_ObjectHideFlags: 0
